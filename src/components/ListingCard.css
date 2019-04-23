@@ -1,0 +1,30 @@
+.three-dots-text {
+    text-overflow: ellipsis;
+    /* Required for text-overflow to do anything */
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.column {
+    max-width: 500px;
+}
+
+.column:hover {
+    cursor: pointer;
+}
+
+.tag {
+    margin-left: 5px;
+}
+
+.location {
+    margin-top: 10px;
+}
+
+.icon {
+    margin-right: 5px;
+}
+
+.notification {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
